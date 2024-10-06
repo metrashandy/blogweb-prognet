@@ -333,7 +333,9 @@ footer{
     margin: 0 0.3rem;
     transition: all 0.5 ease;
 }
-
+.about-content img{
+    padding-top: 4rem;
+}
 .sosial-links a:hover{
     background: #fff;
     color: var(--exDark);
