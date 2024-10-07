@@ -104,7 +104,7 @@ header{
 
 .banner-title span{
     font-family: var(--Playfair);
-    color: var(--exDark);
+    color: #5d5b5b;
 }
 
 .banner p{
