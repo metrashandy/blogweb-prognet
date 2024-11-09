@@ -32,6 +32,7 @@ img{
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 1.2rem;
+    
 }
 
 /* Header */
@@ -44,11 +45,11 @@ header{
 }
 
 .user-box{
-    transform: translate(40%);
+    transform: translate(43%);
 }
 .user-box img {
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: 15%;
     object-fit: cover;
     border-radius: 50%;
   }
@@ -180,6 +181,7 @@ header{
 .resume{
     padding: 4.5rem;
     background: #f7f7f7;
+    
 }
 .resume > .text{
     width: 70%;
