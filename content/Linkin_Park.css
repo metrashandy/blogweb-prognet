@@ -43,15 +43,6 @@ header{
     justify-content: stretch;
 }
 
-.user-box{
-    transform: translate(40%);
-}
-.user-box img {
-    width: 25%;
-    height: 25%;
-    object-fit: cover;
-    border-radius: 50%;
-  }
 
 .navbar{
     background: rgba(0,0,0,0.6);

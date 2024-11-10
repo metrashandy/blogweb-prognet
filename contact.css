@@ -115,7 +115,9 @@ header{
 }
 
 .user-box{
-    transform: translate(45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .user-box img {
     width: 15%;
