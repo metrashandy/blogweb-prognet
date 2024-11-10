@@ -220,6 +220,61 @@ header{
     outline: 0;
     cursor: pointer;
 }
+/* Container dropdown */
+.dropdown_container {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: var(--exDark);
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    list-style: none;
+    min-width: 250px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Dropdown item */
+.dropdown li {
+    padding: 10px;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dropdown link */
+.dropdown li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+/* Hover effect for dropdown item */
+.dropdown li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown li a:hover {
+    color: #f0f0f0;
+}
+
+/* Tampilkan dropdown on hover */
+.dropdown_container:hover .dropdown {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
 /*contact*/
 .contact{
     padding: 5rem 0 2.5rem 0;
