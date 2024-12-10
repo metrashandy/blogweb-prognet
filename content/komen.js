@@ -25,7 +25,7 @@ userComment.addEventListener("input", () => {
 });
 
 function addPost(event) {
-    event.preventDefault(); // Mencegah form melakukan submit
+    event.preventDefault(); 
 
     if (!userComment.value) return;
 
@@ -34,7 +34,7 @@ function addPost(event) {
     userId.identity = userId.name !== "Anonymous";
     userId.image = "gambar_kontent/foto-profil-whatsapp-kosong-kacamata.jpg";
     userId.message = userComment.value;
-    userId.date = new Date().toLocaleString(); // Menambahkan waktu lengkap (tanggal dan jam)
+    userId.date = new Date().toLocaleString(); 
 
     // Membuat tampilan komentar
     let published = `

@@ -36,7 +36,7 @@ img{
 /* Header */
 header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(gambar/background_1.png) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),  url(gambar/kurumi.jpg) center/cover no-repeat fixed;
     display: flex;
     flex-direction:column;
     justify-content: stretch;
